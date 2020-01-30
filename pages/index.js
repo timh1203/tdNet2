@@ -1,20 +1,14 @@
 // LOCAL
-import { Announcements, Contact, Discord, Header, Feed, Footer, Nav } from '../src'
+import Home from '../src/components/Home'
 
-class Index extends React.Component {
+class HomePage extends React.Component {
   render() {
     return (
-      <main className="Index">
-        <Nav />
-        <Header />
-        <Announcements />
-        <Feed />
-        <Discord />
-        <Contact />
-        <Footer />
+      <main className="HomePage">
+        <Home />
       </main>
     )
   }
 }
 
-export default Index;
+export default HomePage;
