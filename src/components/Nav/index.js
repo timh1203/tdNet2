@@ -1,19 +1,58 @@
+// PACKAGES
 import Link from 'next/link'
+import styled from 'styled-components'
 
 const Nav = () => (
-  <main className="Nav">
-    <div className="nav-left">
+  <Main1 className="Nav">
+    <Section1 className="nav-left">
       <img src="/logo.png" alt='travelDev Logo' />
-    </div>
-    <div className="nav-right">
-      <Link href="/"><a>Home</a></Link>
-      <Link href="/about"><a>About</a></Link>
-      <Link href="/playlists"><a>Playlists</a></Link>
-      <Link href="/discord"><a>Discord</a></Link>
-      <Link href="/blog"><a>Blog</a></Link>
-      <Link href="/resources"><a>Resources</a></Link>
-    </div>
-  </main>
+    </Section1>
+    <Section2 className="nav-right">
+      <Link href="/">
+        <A1>🏠 Home</A1>
+      </Link>
+      <Link href="/about">
+        <A1>👤 About</A1>
+      </Link>
+      <Link href="/playlists">
+        <A1>⏯ Playlists</A1>
+      </Link>
+      <Link href="/discord">
+        <A1>🎙 Discord</A1>
+      </Link>
+      <Link href="/blog">
+        <A1>📘 Blog</A1>
+      </Link>
+      <Link href="/resources">
+        <A1>⚡️ Resources</A1>
+      </Link>
+    </Section2>
+  </Main1>
 )
+
+const Main1 = styled.main`
+  display: flex;
+  align-items: center;
+`
+const Section1 = styled.section`
+  width: 40%;
+`
+const Section2 = styled.section`
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  font-size: 1.5rem;
+`
+const A1 = styled.a`
+  text-decoration: none;
+  &:visited {
+    color: #5454FF;
+  }
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 0 0 20px #5454FF;
+  }
+`
 
 export default Nav
