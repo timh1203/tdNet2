@@ -1,7 +1,17 @@
+// PACKAGES
+import styled from 'styled-components'
+import ReactPlayer from 'react-player'
+
 const Header = () => (
   <main className="Header">
-    <h1>Header</h1>
+    <ReactPlayer1
+      url="https://youtu.be/EBjhGtDrEHk"
+    />
   </main>
 )
+
+const ReactPlayer1 = styled(ReactPlayer)`
+  margin: 0 auto;
+`
 
 export default Header
