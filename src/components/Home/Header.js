@@ -16,15 +16,19 @@ const Main1 = styled.main`
   text-align: center;
 `
 const H1A = styled.h1`
-
+  font-family: 'Abril Fatface', cursive;
   font-weight: 800;
   color: #292929;
   text-shadow: 1px 4px 2px gray;
   margin: 0;
   font-size: 6rem;
+  text-decoration: underline;
+  transform: rotate(-10deg);
 `
 const ReactPlayer1 = styled(ReactPlayer)`
   margin: 2rem auto;
+  border: 2px solid #555BFB;
+  border-radius: 3px;
 `
 const P1 = styled.p`
   font-size: 1.5rem;
