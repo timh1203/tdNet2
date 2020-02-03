@@ -5,7 +5,28 @@ import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Abril Fatface';
-    src: url('/static/fonts/AbrilFatface-Regular.ttf');
+    src: url('/fonts/Abril_Fatface/AbrilFatface-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/RaleWay/Raleway-Black.ttf');
+    src: url('/fonts/RaleWay/Raleway-BlackItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Bold.ttf');
+    src: url('/fonts/RaleWay/Raleway-BoldItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-ExtraBold.ttf');
+    src: url('/fonts/RaleWay/Raleway-ExtraBoldItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-ExtraLight.ttf');
+    src: url('/fonts/RaleWay/Raleway-ExtraLightItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Italic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Light.ttf');
+    src: url('/fonts/RaleWay/Raleway-LightItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Medium.ttf');
+    src: url('/fonts/RaleWay/Raleway-MediumItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Regular.ttf');
+    src: url('/fonts/RaleWay/Raleway-SemiBold.ttf');
+    src: url('/fonts/RaleWay/Raleway-SemiBoldItalic.ttf');
+    src: url('/fonts/RaleWay/Raleway-Thin.ttf');
+    src: url('/fonts/RaleWay/Raleway-ThinItalic.ttf');
   }
 `;
 

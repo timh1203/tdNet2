@@ -17,6 +17,8 @@ class HomePage extends React.Component {
 }
 
 const Main1 = styled.main`
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 `;
 
 export default HomePage;
