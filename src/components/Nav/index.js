@@ -3,19 +3,22 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { FaTwitterSquare, FaYoutubeSquare, FaInstagram } from 'react-icons/fa'
 
+// LOCAL
+import { links } from '../../../public'
+
 const Nav = () => (
   <Main1 className="Nav">
     <Section1 className="nav-left">
       <img src="/logo.png" alt='travelDev Logo' />
     </Section1>
     <Section2 className="nav-middle">
-      <a href="www.youtube.com" target="_blank">
+      <a href={links.youtube.url} alt={links.youtube.alt} target="_blank">
         <FaYoutubeSquare1 size={50} />
       </a>
-      <a href="www.twitter.com" target="_blank">
+      <a href={links.twitter.url} alt={links.twitter.alt} target="_blank">
         <FaTwitter1 size={50} />
       </a>
-      <a href="www.instagram.com" target="_blank">
+      <a href={links.instagram.url} alt={links.instagram.alt} target="_blank">
         <FaInstagram1 size={43} />
       </a>
     </Section2>
