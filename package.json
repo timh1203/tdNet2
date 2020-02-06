@@ -5,6 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "next": "^9.2.0",
     "next-fonts": "^1.0.3",
     "react": "^16.12.0",
