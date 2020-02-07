@@ -1,10 +1,10 @@
+// PACKAGES
+import styled from 'styled-components'
+
 class Youtube extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      resultYoutube: []
-    };
-  }
+  state = {
+    results: []
+  };
 
   componentDidMount() {
     this.clicked()
@@ -16,26 +16,26 @@ class Youtube extends React.Component {
     const selfURL = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channel_id}&maxResults=3&order=date&key=${api_key}`
 
     fetch(selfURL)
-      .then((response) => response.json())
-      .then((responseJson) => {
-        const resultYoutube = responseJson.items.map(obj => "https://www.youtube.com/embed/" + obj.id.videoId)
-        this.setState({ resultYoutube });
+      .then(res => res.json())
+      .then(res => {
+        const results = res.items.map(obj => "https://www.youtube.com/embed/" + obj.id.videoId)
+        this.setState({ results });
       })
-      .catch((error) => {
-        console.log(error);
+      .catch((err) => {
+        console.error(err);
       })
 
   }
 
   render() {
     return (
-      <div className="Feed-youtube">
+      <Main1 className="Feed-youtube">
         {
-          this.state.resultYoutube.map((link, i) => (
-            <div key={i} className="videoThumb">
+          this.state.results.map((link, i) => (
+            <div key={i} >
               <iframe
-                width="560"
-                height="315"
+                width="400"
+                height="225"
                 src={link}
                 title="video"
                 frameBorder="0"
@@ -44,9 +44,16 @@ class Youtube extends React.Component {
             </div>
           ))
         }
-      </div>
+      </Main1>
     );
   }
 }
+
+const Main1 = styled.main`
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+`
 
 export default Youtube;
