@@ -39,7 +39,7 @@ const Main1 = styled.main`
   background: #333333;
 `
 const Section1 = styled.section`
-  width: 40%;
+  width: 50%;
   text-align: center;
 `
 const Div1 = styled.div`
@@ -53,8 +53,9 @@ const P1 = styled.p`
 const Section2 = styled.section`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 30%;
+  align-items: flex-start;
+  width: 20%;
+  font-size: 1.3rem;
   `
 const Section3 = styled.section`
   width: 30%;
