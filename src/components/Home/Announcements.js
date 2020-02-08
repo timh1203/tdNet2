@@ -1,7 +1,7 @@
 const Announcements = () => (
-  <main className="Announcements">
+  <section>
     <h1>Announcements</h1>
-  </main>
+  </section>
 )
 
 export default Announcements

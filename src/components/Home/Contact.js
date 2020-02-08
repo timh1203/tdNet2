@@ -1,7 +1,7 @@
 const Contact = () => (
-  <main className="Contact">
+  <section>
     <h1>Contact</h1>
-  </main>
+  </section>
 )
 
 export default Contact

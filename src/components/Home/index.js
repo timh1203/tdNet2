@@ -8,7 +8,7 @@ import Header from './Header.js'
 class Home extends React.Component {
   render() {
     return (
-      <main className="Home">
+      <main>
         <Header />
         <Announcements />
         <Feed />

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Youtube from '../../apis/youtube.js'
 
 const Feed = () => (
-  <main className="Feed">
+  <section>
     <h1>Latest Videos</h1>
     <Youtube />
     <Div1>
@@ -13,7 +13,7 @@ const Feed = () => (
         <button>More Videos</button>
       </a>
     </Div1>
-  </main>
+  </section>
 )
 
 const Div1 = styled.div`

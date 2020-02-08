@@ -3,16 +3,16 @@ import styled from 'styled-components'
 import ReactPlayer from 'react-player'
 
 const Header = () => (
-  <Main1 className="Header">
+  <Section1>
     <H1A>travelDev</H1A>
     <ReactPlayer1
       url="https://youtu.be/EBjhGtDrEHk"
     />
     <P1>I love to ️✈️, 💻, and 📹.</P1>
-  </Main1>
+  </Section1>
 )
 
-const Main1 = styled.main`
+const Section1 = styled.section`
   text-align: center;
 `
 const H1A = styled.h1`
