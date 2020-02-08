@@ -2,7 +2,7 @@ class About extends React.Component {
   render() {
     return (
       <main className="About">
-        <h1>About Page</h1>
+        <h1>About Page coming soon...</h1>
       </main>
     )
   }

@@ -1,14 +1,13 @@
 // LOCAL
-import Nav from '../src/components/Nav'
+import Wrapper from '../src/static/Wrapper/index'
 import Discord from '../src/components/Discord'
 
 class DiscordPage extends React.Component {
   render() {
     return (
-      <main className="DiscordPage">
-        <Nav />
+      <Wrapper>
         <Discord />
-      </main>
+      </Wrapper>
     )
   }
 }

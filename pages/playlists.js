@@ -1,14 +1,13 @@
 // LOCAL
-import Nav from '../src/components/Nav'
+import Wrapper from '../src/static/Wrapper/index'
 import Playlists from '../src/components/Playlists'
 
 class PlaylistsPage extends React.Component {
   render() {
     return (
-      <main className="PlaylistsPage">
-        <Nav />
+      <Wrapper>
         <Playlists />
-      </main>
+      </Wrapper>
     )
   }
 }

@@ -1,14 +1,13 @@
 // LOCAL
-import Nav from '../src/components/Nav'
+import Wrapper from '../src/static/Wrapper/index'
 import Resources from '../src/components/Resources'
 
 class ResourcesPage extends React.Component {
   render() {
     return (
-      <main className="ResourcesPage">
-        <Nav />
+      <Wrapper>
         <Resources />
-      </main>
+      </Wrapper>
     )
   }
 }

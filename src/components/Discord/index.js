@@ -2,7 +2,7 @@ class Discord extends React.Component {
   render() {
     return (
       <main className="Discord">
-        <h1>Discord Page</h1>
+        <h1>Discord Page coming soon...</h1>
       </main>
     )
   }

@@ -2,21 +2,20 @@
 import styled from 'styled-components';
 
 // LOCAL
-import Nav from '../src/components/Nav/index.js'
+import Wrapper from '../src/static/Wrapper/index'
 import Home from '../src/components/Home'
 
 class HomePage extends React.Component {
   render() {
     return (
-      <Main1 className="HomePage">
-        <Nav />
+      <Wrapper1>
         <Home />
-      </Main1>
+      </Wrapper1>
     );
   }
 }
 
-const Main1 = styled.main`
+const Wrapper1 = styled(Wrapper)`
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
 `;
