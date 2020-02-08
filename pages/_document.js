@@ -1,5 +1,5 @@
+// PACKAGES
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
 import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export default class MyDocument extends Document {
+class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
@@ -66,7 +66,7 @@ export default class MyDocument extends Document {
             content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
           />
         </Head>
-        <body>
+        <body style={{ margin: "0" }}>
           <GlobalStyle />
           <Main />
           <NextScript />
@@ -75,3 +75,5 @@ export default class MyDocument extends Document {
     );
   }
 }
+
+export default MyDocument

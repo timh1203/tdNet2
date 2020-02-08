@@ -36,7 +36,7 @@ const Footer = () => (
 const Main1 = styled.main`
   display: flex;
   justify-content: space-around;
-
+  background: #333333;
 `
 const Section1 = styled.section`
   width: 40%;
