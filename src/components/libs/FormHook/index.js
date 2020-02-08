@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function formHook(initialState) {
+function FormHook(initialState) {
   const [fields, setFields] = useState(initialState)
 
   return [
@@ -14,4 +14,4 @@ function formHook(initialState) {
   ]
 }
 
-export default formHook
+export default FormHook

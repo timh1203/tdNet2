@@ -1,5 +1,5 @@
 // LOCAL
-import Wrapper from '../src/static/Wrapper/index'
+import Wrapper from '../src/components/libs/Wrapper'
 import Discord from '../src/components/Discord'
 
 class DiscordPage extends React.Component {

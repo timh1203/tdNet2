@@ -1,8 +1,8 @@
 // LOCAL
-import formHook from '../libs/formHook'
+import FormHook from '../libs/FormHook'
 
 const Contact = () => {
-  const [info, setInfo] = formHook({
+  const [info, setInfo] = FormHook({
     firstName: '',
     lastName: '',
     email: '',

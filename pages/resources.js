@@ -1,5 +1,5 @@
 // LOCAL
-import Wrapper from '../src/static/Wrapper/index'
+import Wrapper from '../src/components/libs/Wrapper'
 import Resources from '../src/components/Resources'
 
 class ResourcesPage extends React.Component {

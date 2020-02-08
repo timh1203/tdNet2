@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { FaTwitterSquare, FaYoutubeSquare, FaInstagram } from 'react-icons/fa'
 
 // LOCAL
-import { links } from '../../../public'
+import { links } from '../../../../public'
 
 const Nav = () => (
   <Main1 className="Nav">

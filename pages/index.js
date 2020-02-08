@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 // LOCAL
-import Wrapper from '../src/static/Wrapper/index'
+import Wrapper from '../src/components/libs/Wrapper'
 import Home from '../src/components/Home'
 
 class HomePage extends React.Component {
