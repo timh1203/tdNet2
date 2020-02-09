@@ -13,7 +13,10 @@ const Header = () => (
 )
 
 const Section1 = styled.section`
+  padding: 2rem;
   text-align: center;
+  background: rgb(128,128,233);
+  background: linear-gradient(0deg, rgba(128,128,233,1) 0%, rgba(73,127,255,1) 100%);
 `
 const H1A = styled.h1`
   font-family: 'Abril Fatface', cursive;

@@ -1,6 +1,6 @@
 // LOCAL
-import Header from './Header.js'
 import Announcements from './Announcements.js'
+import Header from './Header.js'
 import Quote from './Quote.js'
 import Feed from './Feed.js'
 import Discord from './Discord.js'
@@ -10,8 +10,8 @@ class Home extends React.Component {
   render() {
     return (
       <main>
-        <Header />
         <Announcements />
+        <Header />
         <Quote />
         <Feed />
         <Discord />

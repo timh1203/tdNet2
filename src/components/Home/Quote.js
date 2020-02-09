@@ -16,7 +16,7 @@ const Quote = () => (
 const Section1 = styled.section`
   padding: 2rem 0;
   width: 100%;
-  height: 100px;
+  height: 400px;
   color: white;
   font-family: "Abril Fatface", cursive;
   background-image: url("/skyPlane.jpg");

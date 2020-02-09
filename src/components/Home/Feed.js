@@ -19,6 +19,9 @@ const Feed = () => (
 const Section1 = styled.section`
   padding: 2rem 0;
   text-align: center;
+  background: rgb(128,128,233);
+  background: linear-gradient(0deg, rgba(128,128,233,1) 0%, rgba(73,127,255,1) 100%);
+
 `
 const Div1 = styled.div`
   text-align: center;
@@ -34,6 +37,7 @@ const Button1 = styled.button`
   transition: ease all 0.5s;
   font-size: 1rem;
   &:hover {
+    cursor: pointer;
     background: white;
     color: #555bfb;
     border: 2px solid black;
