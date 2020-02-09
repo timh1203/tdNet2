@@ -9,9 +9,11 @@ import Footer from '../Footer'
 const Wrapper = ({ children }) => {
   return (
     <main>
-      <Nav />
       <Div1>
-        {children}
+        <Nav />
+        <Div2>
+          {children}
+        </Div2>
       </Div1>
       <Footer />
     </main>
@@ -19,6 +21,10 @@ const Wrapper = ({ children }) => {
 }
 
 const Div1 = styled.div`
+  min-height: 100%;
+  margin-bottom: 288px;
+`
+const Div2 = styled.div`
   margin: 3rem auto;
   width: 80%;
 `

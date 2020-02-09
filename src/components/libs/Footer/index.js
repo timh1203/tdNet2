@@ -44,6 +44,7 @@ const Footer = () => (
 )
 
 const Main1 = styled.main`
+  height: 285px;
   display: flex;
   justify-content: space-around;
   background: #333333;
