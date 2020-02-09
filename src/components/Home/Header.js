@@ -21,7 +21,7 @@ const H1A = styled.h1`
   color: #292929;
   text-shadow: 1px 4px 2px gray;
   margin: 0;
-  font-size: 6rem;
+  font-size: 4rem;
   text-decoration: underline;
   transform: rotate(-10deg);
 `
