@@ -24,7 +24,6 @@ class Youtube extends React.Component {
       .catch((err) => {
         console.error(err);
       })
-
   }
 
   render() {
