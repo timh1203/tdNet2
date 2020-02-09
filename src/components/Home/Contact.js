@@ -89,6 +89,9 @@ const Contact = () => {
 }
 
 const Section1 = styled.section`
+  padding: 2rem 0;
+  background: rgb(128,128,233);
+  background: linear-gradient(0deg, rgba(128,128,233,1) 0%, rgba(73,127,255,1) 100%);
 `
 const Div1 = styled.div`
   text-align: center;
@@ -112,7 +115,7 @@ const Input1 = styled.input`
   &:focus {
     outline: none;
     border: 1px solid #555bfb;
-    box-shadow: 0 0 20px #5454FF;
+    box-shadow: 0 0 20px white;
   }
 `
 const Textarea1 = styled.textarea`
@@ -126,7 +129,7 @@ const Textarea1 = styled.textarea`
   &:focus {
     outline: none;
     border: 1px solid #555bfb;
-    box-shadow: 0 0 20px #5454FF;
+    box-shadow: 0 0 20px white;
   }
 `
 const Div4 = styled.div`
@@ -145,7 +148,7 @@ const Button1 = styled.button`
     background: white;
     color: #555bfb;
     border: 2px solid black;
-    box-shadow: 0 0 20px #5454FF;
+    box-shadow: 0 0 20px white;
   }
 `
 
