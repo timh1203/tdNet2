@@ -9,8 +9,17 @@ const About = () => {
   return (
     <Div1>
       <P1>About</P1>
-      <p>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</p>
+      <p>My personal website to share my journey in travel and web development. I love traveling, web development, and sharing outdoor adventures. This site is meant to inspire and help me connect with like minded individual and serve as an online presence for my personal hobbies.</p>
       <button>Read More</button>
+    </Div1>
+  )
+}
+
+const Credits = () => {
+  return (
+    <Div1>
+      <P1>Made with ☀️, 🍵, and 🔥.</P1>
+      <p>Updated: February {new Date().getFullYear()}</p>
     </Div1>
   )
 }
@@ -29,6 +38,7 @@ const Footer = () => (
       <Div2>
         <Social />
       </Div2>
+      <Credits />
     </Section3>
   </Main1>
 )
@@ -41,6 +51,7 @@ const Main1 = styled.main`
 const Section1 = styled.section`
   width: 50%;
   text-align: center;
+  color: white;
 `
 const Div1 = styled.div`
   width: 80%;
@@ -54,16 +65,18 @@ const Section2 = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 20%;
+  width: 10%;
   font-size: 1.3rem;
+  color: white;
   `
 const Section3 = styled.section`
-  width: 30%;
+  width: 40%;
   text-align: center;
+  color: white;
 `
 const Div2 = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 `
 
