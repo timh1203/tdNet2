@@ -3,29 +3,36 @@ import styled from 'styled-components'
 
 const Discord = () => (
   <Section1>
-    <h1>Discord</h1>
-    <Div1>
-      <P1>Want to connect with me and other aspiring travel developers?</P1>
-      <P2>Hop in our discord: DevSky Crew!</P2>
-      <A1 href="https://discord.gg/9WjKnh" target="_blank">https://discord.gg/9WjKnh</A1>
-    </Div1>
+    <A1 href="https://discord.gg/9WjKnh" target="_blank">
+      <Img1 src="/discord.png" alt="discord logo" />
+    </A1>
+    <P1>Want to connect with me and other aspiring travel developers?</P1>
+    <p>Hop in our discord: DevSky Crew!</p>
+    <A1 href="https://discord.gg/9WjKnh" target="_blank">https://discord.gg/9WjKnh</A1>
+    {/* </Div1> */}
   </Section1>
 )
 
 const Section1 = styled.section`
   padding: 2rem 0;
-`
-const Div1 = styled.div`
+  height: 100%;
+  background-image: url("/skyDrawing.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #8C9EFF;
   text-align: center;
-`
-const P1 = styled.p`
-  font-family: 'Abril Fatface', cursive;
-  font-weight: 800;
   font-size: 1.5rem;
 `
-const P2 = styled.p`
-  font-size: 1.2rem;
+const Img1 = styled.img`
+  width: 150px;
 `
-const A1 = styled.a``
+const P1 = styled.p`
+  font-weight: 800;
+`
+const A1 = styled.a`
+  color: #8C9EFF;
+`
 
 export default Discord
