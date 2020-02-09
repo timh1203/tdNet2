@@ -9,8 +9,8 @@ const About = () => {
   return (
     <Div1>
       <P1>About</P1>
-      <p>My personal website to share my journey in travel and web development. I love traveling, web development, and sharing outdoor adventures. This site is meant to inspire and help me connect with like minded individual and serve as an online presence for my personal hobbies.</p>
-      <button>Read More</button>
+      <P2>My personal website to share my journey in travel and web development. I love traveling, web development, and sharing outdoor adventures. This site is meant to inspire and help me connect with like minded individual and serve as an online presence for my personal hobbies.</P2>
+      <Button1>Read More</Button1>
     </Div1>
   )
 }
@@ -64,6 +64,25 @@ const P1 = styled.p`
   font-size: 1.5rem;
   font-weight: 800;
   color: white;
+`
+const P2 = styled.p`
+  font-size: 1.2rem;
+`
+const Button1 = styled.button`
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  background: #555bfb;
+  transition: ease all 0.5s;
+  font-size: 1rem;
+  &:hover {
+    background: white;
+    color: #555bfb;
+    border: 2px solid black;
+    box-shadow: 0 0 20px white;
+  }
 `
 const Section2 = styled.section`
   display: flex;
