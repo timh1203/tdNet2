@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Announcements = () => (
   <Section1>
-    <h1>Announcements</h1>
+    <h1>🎺 Announcements</h1>
   </Section1>
 )
 

@@ -6,7 +6,7 @@ import Youtube from '../../apis/youtube.js'
 
 const Feed = () => (
   <Section1>
-    <h1>Latest Videos</h1>
+    <h1>📹 Latest Videos</h1>
     <Youtube />
     <Div1>
       <a href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
