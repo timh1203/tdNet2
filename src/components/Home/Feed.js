@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Youtube from '../../apis/youtube.js'
 
 const Feed = () => (
-  <section>
+  <Section1>
     <h1>Latest Videos</h1>
     <Youtube />
     <Div1>
@@ -13,9 +13,12 @@ const Feed = () => (
         <button>More Videos</button>
       </a>
     </Div1>
-  </section>
+  </Section1>
 )
 
+const Section1 = styled.section`
+  padding: 2rem 0;
+`
 const Div1 = styled.div`
   text-align: center;
 `

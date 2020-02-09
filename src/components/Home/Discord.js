@@ -2,16 +2,19 @@
 import styled from 'styled-components'
 
 const Discord = () => (
-  <section>
+  <Section1>
     <h1>Discord</h1>
     <Div1>
       <P1>Want to connect with me and other aspiring travel developers?</P1>
       <P2>Hop in our discord: DevSky Crew!</P2>
       <A1 href="https://discord.gg/9WjKnh" target="_blank">https://discord.gg/9WjKnh</A1>
     </Div1>
-  </section>
+  </Section1>
 )
 
+const Section1 = styled.section`
+  padding: 2rem 0;
+`
 const Div1 = styled.div`
   text-align: center;
 `
