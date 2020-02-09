@@ -2,8 +2,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 
-// LOCAL
-
 const Social = () => (
   <>
     <Link href="/">
@@ -29,6 +27,7 @@ const Social = () => (
 
 const A1 = styled.a`
   text-decoration: none;
+  margin-bottom: 5px;
   &:visited {
     color: #5454FF;
   }

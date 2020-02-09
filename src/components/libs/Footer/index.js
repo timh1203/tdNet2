@@ -31,7 +31,9 @@ const Footer = () => (
     </Section1>
     <Section2>
       <P1>Navigation</P1>
-      <Menu />
+      <Span1>
+        <Menu />
+      </Span1>
     </Section2>
     <Section3>
       <P1>Social</P1>
@@ -61,6 +63,7 @@ const Div1 = styled.div`
 const P1 = styled.p`
   font-size: 1.5rem;
   font-weight: 800;
+  color: white;
 `
 const Section2 = styled.section`
   display: flex;
@@ -68,8 +71,20 @@ const Section2 = styled.section`
   align-items: flex-start;
   width: 10%;
   font-size: 1.3rem;
+`
+const Span1 = styled.span`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   color: white;
-  `
+  * {
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      text-shadow: 0 0 20px white;
+    }
+  }
+`
 const Section3 = styled.section`
   width: 40%;
   text-align: center;
