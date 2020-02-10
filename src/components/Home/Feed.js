@@ -1,18 +1,34 @@
 // PACKAGES
 import styled from 'styled-components'
 
-// LOCAL
-import Youtube from '../../apis/youtube.js'
-
-const Feed = () => (
+const Feed = (props) => (
   <Section1>
     <h1>📹 Latest Videos</h1>
-    <Youtube />
     <Div1>
+      {
+        props.ytResults.map((video, i) => (
+          <div key={i} >
+            <iframe
+              width="400"
+              height="225"
+              src={`https://www.youtube.com/embed/${video.id.videoId}`}
+              title="video"
+              frameBorder="0"
+              allowFullScreen>
+            </iframe>
+            <Div2>
+              <P1>{video.snippet.title}</P1>
+              <P2>{video.snippet.description.substr(0, 300)}</P2>
+            </Div2>
+          </div>
+        ))
+      }
+    </Div1>
+    <Div3>
       <a href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
         <Button1>More Videos</Button1>
       </a>
-    </Div1>
+    </Div3>
   </Section1>
 )
 
@@ -27,6 +43,19 @@ const Section1 = styled.section`
   justify-content: space-between;
 `
 const Div1 = styled.div`
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+`
+const Div2 = styled.div`
+  width: 100%;
+`
+const P1 = styled.p`
+  font-weight: 800;
+`
+const P2 = styled.p``
+const Div3 = styled.div`
   text-align: center;
   margin: 2rem 0;
 `
