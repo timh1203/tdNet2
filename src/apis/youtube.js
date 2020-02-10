@@ -52,7 +52,7 @@ const Main1 = styled.main`
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 `
 
 export default Youtube;
