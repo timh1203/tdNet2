@@ -88,8 +88,8 @@ const Section2 = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 10%;
-  font-size: 1.3rem;
+  width: 15%;
+  font-size: 1.2rem;
 `
 const Span1 = styled.span`
   display: flex;
@@ -105,7 +105,7 @@ const Span1 = styled.span`
   }
 `
 const Section3 = styled.section`
-  width: 40%;
+  width: 35%;
   text-align: center;
   color: white;
 `
