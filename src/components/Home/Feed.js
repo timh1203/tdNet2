@@ -4,7 +4,8 @@ import styled from 'styled-components'
 const Feed = (props) => (
   <Section1>
     <h1>📹 Latest Videos</h1>
-    {/* <Div1>
+    <p>Small change</p>
+    <Div1>
       {
         props.ytResults.map((video, i) => (
           <div key={i} >
@@ -23,7 +24,7 @@ const Feed = (props) => (
           </div>
         ))
       }
-    </Div1> */}
+    </Div1>
     <Div3>
       <a href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
         <Button1>More Videos</Button1>
@@ -42,19 +43,20 @@ const Section1 = styled.section`
   flex-direction: column;
   justify-content: space-between;
 `
-// const Div1 = styled.div`
-//   width: 90%;
-//   margin: 0 auto;
-//   display: flex;
-//   justify-content: space-between;
-// `
-// const Div2 = styled.div`
-//   width: 100%;
-// `
-// const P1 = styled.p`
-//   font-weight: 800;
-// `
-// const P2 = styled.p``
+const Div1 = styled.div`
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+`
+const Div2 = styled.div`
+  width: 100%;
+`
+const P1 = styled.p`
+  font-weight: 800;
+`
+const P2 = styled.p`
+`
 const Div3 = styled.div`
   text-align: center;
   margin: 2rem 0;

@@ -1,14 +1,13 @@
 {
   "name": "TravelDev",
   "description": "For the love of travel and coding",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Timothy Hoang <timh1203@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "now-build": "next build"
+    "start": "next start"
   },
   "dependencies": {
     "axios": "^0.19.2",
