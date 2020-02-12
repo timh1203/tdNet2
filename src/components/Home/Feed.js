@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Feed = (props) => (
   <Section1>
     <h1>📹 Latest Videos</h1>
-    <p>Small change</p>
     <Div1>
       {
         props.ytResults.map((video, i) => (
@@ -18,7 +17,9 @@ const Feed = (props) => (
               allowFullScreen>
             </iframe>
             <Div2>
-              <P1>{video.snippet.title}</P1>
+              <A1 href={`https://www.youtube.com/embed/${video.id.videoId}`} target="_blank">
+                <P1>{video.snippet.title}</P1>
+              </A1>
               <P2>{video.snippet.description.substr(0, 300)}</P2>
             </Div2>
           </div>
@@ -52,8 +53,12 @@ const Div1 = styled.div`
 const Div2 = styled.div`
   width: 100%;
 `
+const A1 = styled.a`
+  color: white;
+`
 const P1 = styled.p`
   font-weight: 800;
+  text-decoration: underline;
 `
 const P2 = styled.p`
 `

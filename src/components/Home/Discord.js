@@ -7,7 +7,7 @@ const Discord = () => (
       <Img1 src="/discord.png" alt="discord logo" />
     </A1>
     <P1>Want to connect with me and other aspiring travel developers?</P1>
-    <p>Hop in our discord: DevSky Crew!</p>
+    <P2>Hop in our discord: DevSky Crew!</P2>
     <A1 href="https://discord.gg/9WjKnh" target="_blank">https://discord.gg/9WjKnh</A1>
     {/* </Div1> */}
   </Section1>
@@ -29,10 +29,14 @@ const Img1 = styled.img`
   width: 150px;
 `
 const P1 = styled.p`
+  color: white;
   font-weight: 800;
 `
+const P2 = styled.p`
+  color: white;
+`
 const A1 = styled.a`
-  color: #8C9EFF;
+  color: white;
 `
 
 export default Discord

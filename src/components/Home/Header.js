@@ -30,8 +30,6 @@ const H1A = styled.h1`
 `
 const ReactPlayer1 = styled(ReactPlayer)`
   margin: 2rem auto;
-  border: 2px solid #555BFB;
-  border-radius: 3px;
 `
 const P1 = styled.p`
   font-size: 1.5rem;

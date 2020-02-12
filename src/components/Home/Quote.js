@@ -27,7 +27,7 @@ const Section1 = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
 `
 const Span2 = styled.span`
   border-bottom: 5px solid #5454FF;
