@@ -1,13 +1,10 @@
 // PACKAGES
 import styled from 'styled-components'
-import ReactPlayer from 'react-player'
 
 const Header = () => (
   <Section1>
     <H1A>travelDev</H1A>
-    <ReactPlayer1
-      url="https://youtu.be/EBjhGtDrEHk"
-    />
+    <Iframe1 width="640" height="385" src="https://www.youtube.com/embed/EBjhGtDrEHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe1>
     <P1>I love to ️✈️, 💻, and 📹.</P1>
   </Section1>
 )
@@ -28,8 +25,9 @@ const H1A = styled.h1`
   text-decoration: underline;
   transform: rotate(-10deg);
 `
-const ReactPlayer1 = styled(ReactPlayer)`
+const Iframe1 = styled.iframe`
   margin: 2rem auto;
+  border: none;
 `
 const P1 = styled.p`
   font-size: 1.5rem;
