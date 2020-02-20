@@ -1,15 +1,15 @@
 // LOCAL
 import Wrapper from '../src/components/libs/Wrapper'
-import Blog from '../src/components/Blog'
+import Gear from '../src/components/Gear'
 
-class BlogPage extends React.Component {
+class GearPage extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Blog />
+        <Gear />
       </Wrapper>
     )
   }
 }
 
-export default BlogPage;
+export default GearPage;
