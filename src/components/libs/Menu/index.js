@@ -13,14 +13,14 @@ const Social = () => (
     <Link href="/playlists">
       <A1>⏯ Playlists</A1>
     </Link>
-    <Link href="/discord">
-      <A1>🎙 Discord</A1>
-    </Link>
     <Link href="/gear">
       <A1>⚙️ Gear</A1>
     </Link>
     <Link href="/resources">
-      <A1>⚡️ Resources</A1>
+      <A1>⚡️ Links</A1>
+    </Link>
+    <Link href="/contact">
+      <A1>✉️ Contact</A1>
     </Link>
   </>
 )
