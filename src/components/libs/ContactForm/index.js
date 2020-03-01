@@ -2,9 +2,9 @@
 import styled from 'styled-components'
 
 // LOCAL
-import FormHook from '../libs/FormHook'
+import FormHook from '../FormHook'
 
-const Contact = () => {
+const ContactForm = () => {
   const [info, setInfo] = FormHook({
     firstName: '',
     lastName: '',
@@ -152,4 +152,4 @@ const Button1 = styled.button`
   }
 `
 
-export default Contact
+export default ContactForm

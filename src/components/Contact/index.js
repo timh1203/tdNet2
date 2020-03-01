@@ -4,7 +4,7 @@ import styled from "styled-components"
 class Discord extends React.Component {
   render() {
     return (
-      <Main1 className="Discord">
+      <Main1>
         <h1>Want to hang with a small group of developers who like to travel?</h1>
         <Iframe1 width="640" height="385" src="https://www.youtube.com/embed/S9CaB83z6z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe1>
         <P1>

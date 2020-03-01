@@ -4,7 +4,7 @@ import Header from './Header.js'
 import Quote from './Quote.js'
 import Feed from './Feed.js'
 import Discord from './Discord.js'
-import Contact from './Contact.js'
+import ContactForm from '../libs/ContactForm'
 
 class Home extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class Home extends React.Component {
         <Quote />
         <Feed ytResults={this.props.ytResults} />
         <Discord />
-        <Contact />
+        <ContactForm />
       </main>
     )
   }
