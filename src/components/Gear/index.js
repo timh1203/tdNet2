@@ -7,7 +7,7 @@ import { gear } from '../../assets'
 class Gear extends React.Component {
   render() {
     return (
-      <main className="Gear">
+      <main>
         <H1a>Laptop Computer</H1a>
         <Div1>
           {gear.laptop.map(item => (

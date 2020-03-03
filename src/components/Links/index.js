@@ -1,11 +1,84 @@
+// PACKAGES
+import styled from 'styled-components'
+
+// LOCAL
+import { links } from '../../assets'
+
 class Links extends React.Component {
+  makeEntry = (item) => {
+    return (
+      <Div2 key={item.name}>
+        <P1>
+          <center><strong>{item.title}</strong></center><br />
+        </P1>
+        <A1 href={item.link} alt={item.name}>
+          <center><Img1 src={item.img} /></center>
+        </A1>
+        <P1>
+          <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
+          {item.desc}<br />
+        </P1>
+        <P1><center>{item.weight}</center></P1>
+      </Div2>
+    )
+  }
+
   render() {
     return (
       <main>
-        <h1>Links Page coming soon...</h1>
+        <H1a>Travel Tools</H1a>
+        <Div1>
+          {links.travel.map(item => this.makeEntry(item))}
+        </Div1>
+        <H1a>Phone Tools</H1a>
+        <Div1>
+          {links.phone.map(item => this.makeEntry(item))}
+        </Div1>
+        <H1a>Services</H1a>
+        <Div1>
+          {links.services.map(item => this.makeEntry(item))}
+        </Div1>
+        <H1a>Web Tools</H1a>
+        <Div1>
+          {links.web.map(item => this.makeEntry(item))}
+        </Div1>
       </main>
     )
   }
 }
+
+const H1a = styled.h1`
+  margin-left: 2rem;
+`
+const Div1 = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+`
+const Div2 = styled.div`
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0;
+`
+const Img1 = styled.img`
+  width: 60%;
+  max-height: 500px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+`
+const P1 = styled.p`
+  width: 90%;
+`
+const A1 = styled.a`
+  color: black;
+  &hover{
+    cursor: pointer;
+  }
+`
 
 export default Links;

@@ -293,7 +293,7 @@ export const gear = {
   ],
 }
 
-export const resources = {
+export const links = {
   phone: [
     {
       title: "Phone, primary",
@@ -353,7 +353,7 @@ export const resources = {
       title: "Backpack Locks",
       name: "TSA 4 Digit Combination Steel Luggage Locks (2 Pack)",
       desc: "You should always opt for a 4 digit lock over a 3 because how quickly they are to crack.",
-      img: "",
+      img: "https://i.imgur.com/RXAkJs3.png",
       link: "https://www.amazon.com/gp/product/B0114C1TM0/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
     },
     {
