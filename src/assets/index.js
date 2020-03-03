@@ -176,6 +176,7 @@ export const resources = {
       desc: "Highly recommended laptop for the budget developer to work in the Apple Operating System.",
       img: "https://i.imgur.com/wngQARE.jpg",
       link: "http://www.amazon.com",
+      weight: "4.46 lbs",
     },
     {
       title: "Case Cover",
@@ -183,6 +184,7 @@ export const resources = {
       desc: "A macbook pro cover to protect and cover up the apple logo that might be attractive for thieves.",
       img: "https://i.imgur.com/Oh8epmg.jpg",
       link: "https://www.amazon.com/dp/B078GMKH9H/ref=twister_B078JFCV3C",
+      weight: "7 oz",
     },
     {
       title: "Laptop Stand",
@@ -190,6 +192,7 @@ export const resources = {
       desc: "A must-have for travel developers with neck strain or back pain who are health and posture conscious.",
       img: "https://i.imgur.com/AFvClDm.jpg",
       link: "https://www.amazon.com/gp/product/B01C9KG8IG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+      weight: "5.8 oz",
     },
     {
       title: "Keyboard, bluetooth",
@@ -197,6 +200,7 @@ export const resources = {
       desc: "There's a newer version of this but it's a great bluetooth keyboard that feels sturdy.",
       img: "https://i.imgur.com/EwTZb9v.jpg",
       link: "https://www.amazon.com/Anker-Wireless-Bluetooth-Keyboard-Rechargeable/dp/B00PIMKN1Q",
+      weight: "11.4 oz",
     },
     {
       title: "Mouse, bluetooth",
@@ -204,6 +208,7 @@ export const resources = {
       desc: "A sturdy bluetooth mouse that can connect to multiple devices.",
       img: "https://i.imgur.com/W2fbqeZ.jpg",
       link: "https://www.amazon.com/gp/product/B01LF37K80/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1",
+      weight: "4.6 oz",
     },
     {
       title: "Charger",
@@ -211,6 +216,7 @@ export const resources = {
       desc: "A better charger than the the mac one in my opinion with extra USB for charging your phone.",
       img: "https://i.imgur.com/tN2fVZm.jpg",
       link: "https://www.amazon.com/gp/product/B079G86T9W/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1",
+      weight: "11.2 oz",
     },
     {
       title: "Portable Monitor",
@@ -218,6 +224,7 @@ export const resources = {
       desc: "Instead of using an ipad, this extra monitor is a boon for productivity.",
       img: "https://i.imgur.com/jzlzXcT.jpg",
       link: "https://www.amazon.com/gp/product/B013XFJKGI/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1",
+      weight: "1.76 lbs",
     },
     {
       title: "Heaphones, bluetooth",
@@ -225,6 +232,7 @@ export const resources = {
       desc: "When you don't want headphone helmet hair and wire free audio.",
       img: "https://i.imgur.com/Ey0mNWD.jpg",
       link: "https://www.amazon.com/gp/product/B00AWIPITS/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1",
+      weight: "6.4 oz",
     },
     {
       title: "External Hard Drive",
@@ -232,6 +240,7 @@ export const resources = {
       desc: "I back up my life on this thing and still have not run out of space yet.",
       img: "https://i.imgur.com/ZiaCElS.jpg",
       link: "https://www.amazon.com/gp/product/B01LQQH86A/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
+      weight: "",
     },
     {
       title: "External Power Bank",
@@ -239,6 +248,7 @@ export const resources = {
       desc: "A nice extra power boost for your laptop and devices when you want to work outside.",
       img: "https://i.imgur.com/uB35OJc.jpg",
       link: "https://www.amazon.com/gp/product/B07P87JTVT/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
+      weight: "8.6 oz",
     },
     {
       title: "External Power Bank",
@@ -246,6 +256,7 @@ export const resources = {
       desc: "A lightweight power boost for charging your phone on the go.",
       img: "https://i.imgur.com/NTab7nL.jpg",
       link: "https://www.amazon.com/gp/product/B00X5RV14Y/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1",
+      weight: "12.5 oz",
     },
     {
       title: "Ethernet Adapter",
@@ -253,6 +264,7 @@ export const resources = {
       desc: "Awesome in a pinch where there's no WiFi signal. (Like that could happen? It has to me.)",
       img: "https://i.imgur.com/fNNbzd5.jpg",
       link: "https://www.amazon.com/gp/product/B00M77HMU0/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1",
+      weight: "1.6 oz",
     },
   ],
   phone_tools: [

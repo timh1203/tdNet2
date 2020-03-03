@@ -8,9 +8,9 @@ class Gear extends React.Component {
   render() {
     return (
       <main className="Gear">
-        <h1>Desktop Computer</h1>
+        <h1>Laptop Computer</h1>
         <Div1>
-          {resources.desktop.map(item => (
+          {resources.laptop.map(item => (
             <Div2>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
@@ -25,9 +25,9 @@ class Gear extends React.Component {
             </Div2>
           ))}
         </Div1>
-        <h1>Laptop Computer</h1>
+        <h1>Desktop Computer</h1>
         <Div3>
-          {resources.laptop.map(item => (
+          {resources.desktop.map(item => (
             <Div2>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
