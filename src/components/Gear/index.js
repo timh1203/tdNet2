@@ -27,6 +27,9 @@ class Gear extends React.Component {
           ))}
         </Div1>
         <H1a>Desktop Computer</H1a>
+        <Div4>
+          <Img2 src="https://i.imgur.com/KywpOkb.jpg" alt="Desktop setup" />
+        </Div4>
         <Div3>
           {gear.desktop.map(item => (
             <Div2 key={item.name}>
@@ -70,10 +73,20 @@ const Div3 = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
 `
+const Div4 = styled.div`
+  width: 50%;
+  margin: 0 auto;
+`
 const Img1 = styled.img`
   width: 90%;
   max-height: 500px;
   display: inline-block;
+`
+const Img2 = styled.img`
+  width: 100%;
+  border-radius: 3px;
+  /* text-align: center; */
+  /* margin: 0 auto; */
 `
 const P1 = styled.p`
   width: 90%;
