@@ -8,10 +8,10 @@ class Gear extends React.Component {
   render() {
     return (
       <main className="Gear">
-        <h1>Laptop Computer</h1>
+        <H1a>Laptop Computer</H1a>
         <Div1>
           {gear.laptop.map(item => (
-            <Div2>
+            <Div2 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
@@ -20,15 +20,16 @@ class Gear extends React.Component {
               </A1>
               <P1>
                 <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
-                {item.desc}
+                {item.desc}<br />
               </P1>
+              <P1><center>{item.weight}</center></P1>
             </Div2>
           ))}
         </Div1>
-        <h1>Desktop Computer</h1>
+        <H1a>Desktop Computer</H1a>
         <Div3>
           {gear.desktop.map(item => (
-            <Div2>
+            <Div2 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
@@ -47,17 +48,21 @@ class Gear extends React.Component {
   }
 }
 
+const H1a = styled.h1`
+  margin-left: 2rem;
+`
 const Div1 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
 `
 const Div2 = styled.div`
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin: 1rem 0;
 `
 const Div3 = styled.div`

@@ -171,7 +171,7 @@ export const gear = {
     {
       title: "Backpack, primary",
       name: "SwissGear ScanSmart Travel Backpack",
-      desc: "My business travel backpack with plenty of compartments and convenient TSA laptop compartment. Dimensions are 19 x 16 x 8 inches",
+      desc: "My business travel backpack with plenty of compartments and convenient TSA laptop compartment and use as my tech bag. Dimensions are 19 x 16 x 8 inches.",
       img: "https://i.imgur.com/O3QpTWy.jpg",
       link: "https://www.amazon.com/SwissGear-Weekender-Backpack-Bookbag-Computers/dp/B077S4WMM5/ref=sr_1_37?keywords=SwissGear+SCANSMART+Laptop+Backpack&qid=1583202018&sr=8-37",
       weight: "1.5 lbs",
@@ -179,7 +179,7 @@ export const gear = {
     {
       title: "Backpack, secondary",
       name: "REI Trail 40",
-      desc: "A 40L internal-frame backpack that's comfortable with rainfly. Dimensions are 21.625 x 13.125 x 10.5 inches",
+      desc: "A 40L internal-frame backpack including with rainfly used as my luggage bag. Dimensions are 21.625 x 13.125 x 10.5 inches.",
       img: "https://i.imgur.com/gTUMOU1.png",
       link: "https://www.rei.com/product/880839/rei-co-op-trail-40-pack-mens",
       weight: "2lb 14oz",
