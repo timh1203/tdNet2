@@ -84,7 +84,7 @@ export const gear = {
       title: "Laptop Stand",
       name: "Roost Laptop Stand",
       desc: "A must-have for travel developers with neck strain or back pain who are health and posture conscious.",
-      img: "https://i.imgur.com/AFvClDm.jpg",
+      img: "https://i.imgur.com/LN7qZbz.png",
       link: "https://www.amazon.com/gp/product/B01C9KG8IG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
       weight: "5.8 oz",
     },
@@ -92,7 +92,7 @@ export const gear = {
       title: "Keyboard, bluetooth",
       name: "Anker Ultra Compact Slim Profile Wireless Bluetooth Rechargeable Keyboard",
       desc: "There's a newer version of this but it's a great bluetooth keyboard that feels sturdy.",
-      img: "https://i.imgur.com/EwTZb9v.jpg",
+      img: "https://i.imgur.com/QTzZgD3.png",
       link: "https://www.amazon.com/Anker-Wireless-Bluetooth-Keyboard-Rechargeable/dp/B00PIMKN1Q",
       weight: "11.4 oz",
     },
@@ -129,10 +129,18 @@ export const gear = {
       weight: "6.4 oz",
     },
     {
+      title: "Earbuds, wired",
+      name: "Panasonic ErgoFit In-Ear Earbud Headphones",
+      desc: "Great sound quality with comfort at a cheap price, no worries about batteries.",
+      img: "https://i.imgur.com/cviddmF.png",
+      link: "https://www.amazon.com/gp/product/B00AWIPITS/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1",
+      weight: "1 oz",
+    },
+    {
       title: "External Hard Drive",
       name: "WD 4TB Black My Passport Portable External Hard Drive",
       desc: "I back up my life on this thing and still have not run out of space yet.",
-      img: "https://i.imgur.com/ZiaCElS.jpg",
+      img: "https://i.imgur.com/Rhmtyup.jpg",
       link: "https://www.amazon.com/gp/product/B01LQQH86A/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
       weight: "",
     },
@@ -155,10 +163,26 @@ export const gear = {
     {
       title: "Ethernet Adapter",
       name: "AmazonBasics USB 3.0 Gigabit Ethernet Internet Adapter",
-      desc: "Awesome in a pinch where there's no WiFi signal. (Like that could happen? It has to me.)",
+      desc: "Awesome in a pinch where there's no WiFi signal. (Like that could happen? Well, it has.)",
       img: "https://i.imgur.com/fNNbzd5.jpg",
       link: "https://www.amazon.com/gp/product/B00M77HMU0/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1",
       weight: "1.6 oz",
+    },
+    {
+      title: "Backpack, primary",
+      name: "SwissGear ScanSmart Travel Backpack",
+      desc: "My business travel backpack with plenty of compartments and convenient TSA laptop compartment. Dimensions are 19 x 16 x 8 inches",
+      img: "https://i.imgur.com/O3QpTWy.jpg",
+      link: "https://www.amazon.com/SwissGear-Weekender-Backpack-Bookbag-Computers/dp/B077S4WMM5/ref=sr_1_37?keywords=SwissGear+SCANSMART+Laptop+Backpack&qid=1583202018&sr=8-37",
+      weight: "1.5 lbs",
+    },
+    {
+      title: "Backpack, secondary",
+      name: "REI Trail 40",
+      desc: "A 40L internal-frame backpack that's comfortable with rainfly. Dimensions are 21.625 x 13.125 x 10.5 inches",
+      img: "https://i.imgur.com/gTUMOU1.png",
+      link: "https://www.rei.com/product/880839/rei-co-op-trail-40-pack-mens",
+      weight: "2lb 14oz",
     },
   ],
   desktop: [
@@ -273,28 +297,28 @@ export const gear = {
 export const resources = {
   phone_tools: [
     {
-      title: "Phone, Primary",
+      title: "Phone, primary",
       name: "LG G6 Unlocked Phone",
       desc: "A flagship phone from the past that boasts water resistance and with a price tag that won't burn a hole in your pocket.",
       img: "https://i.imgur.com/r6ETYSA.jpg",
       link: "https://www.amazon.com/gp/product/B06ZZ5Z9S9/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
     },
     {
-      title: "Primary Phone Case",
+      title: "Phone Case, primary",
       name: "Spigen Tough Armor - Gunmetal",
       desc: "With the extra savings from the budget found, this is a nice case with a kickstand.",
       img: "https://i.imgur.com/gS6GL2l.jpg",
       link: "https://www.amazon.com/gp/product/B01MYAJT88/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1",
     },
     {
-      title: "Phone, Secondary",
+      title: "Phone, secondary",
       name: "Apple iPhone SE 64 GB Unlocked Phone",
       desc: "When you go to a country and need a backup phone.",
       img: "https://i.imgur.com/oQ33itK.jpg",
       link: "https://www.amazon.com/gp/product/B01DAJUDYK/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
     },
     {
-      title: "Secondary Phone Case",
+      title: "Phone Case, secondary",
       name: "SPIDERCASE iPhone 5/5S/SE Waterproof Case",
       desc: "A case that makes your iPhone SE waterproof and almost indestructible.",
       img: "https://i.imgur.com/DTP27Tl.jpg",
@@ -302,26 +326,19 @@ export const resources = {
     },
   ],
   recording_tools: [
-    {
-      title: "",
-      name: "",
-      desc: "",
-      img: "",
-      link: "",
-    },
   ],
   travel_tools: [
     {
       title: "Charles Schwab Card",
       name: "Charles Schwab Debit Card",
-      desc: "",
+      desc: "An awesome ATM-reimbursement card when traveling abroad.",
       img: "https://i.imgur.com/4yww8sB.png",
       link: "https://content.schwab.com/web/retail/public/get-started/checking/",
     },
     {
       title: "Chase Reserve Card",
       name: "Chase Sapphire Reserve Card",
-      desc: "",
+      desc: "Earn the most valuable mileage points with 3x earnings and 50% more travel redemption. The annual fee is somewhat high.",
       img: "https://i.imgur.com/PfzBvlC.png",
       link: "",
       affiliate: "https://www.referyourchasecard.com/19/94WOW0DVSW",
@@ -329,7 +346,7 @@ export const resources = {
     {
       title: "Chase Preferred Card",
       name: "Chase Sapphire PreferredCard",
-      desc: "",
+      desc: "The next best option after the Chase Sapphire Reserve with slightly lower benefits at a fair $95 annual fee.",
       img: "https://i.imgur.com/V5XrWuE.png",
       link: "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-preferred",
     },
@@ -343,111 +360,113 @@ export const resources = {
     {
       title: "GoPro Hero 5",
       name: "GoPro Hero 5",
-      desc: "",
+      desc: "This little camera has served me so well through all my adventures in Colombia and beyond.",
       img: "https://i.imgur.com/2NFjYsr.png",
       link: "https://www.amazon.com/GoPro-CHDHX-502-HERO5-Black/dp/B01M14ATO0/ref=sr_1_3?s=electronics&ie=UTF8&qid=1527001969&sr=1-3&keywords=gopro+5+camera"
     },
     {
       title: "GoPro Stand",
       name: "Joby Gorilla Pod Action Video Tripod",
-      desc: "",
+      desc: "Flexible GoPro stand that helps you attach to weird surfaces.",
       img: "https://i.imgur.com/JTvuth4.jpg",
       link: "https://www.amazon.com/gp/product/B00GTZJA7Y/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1"
     },
     {
       title: "GoPro Memory Card",
       name: "SanDisk Extreme 64GB microSDXC Card",
-      desc: "",
+      desc: "Supports 4K recording and keeps up with high-paced recording speed of the GoPro 5.",
       img: "https://i.imgur.com/abWoX28.png",
       link: "https://www.amazon.com/gp/product/B01HU3Q6S4/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1",
     },
     {
-      title: "",
+      title: "Exercise Gear",
       name: "Garage Fit Wood Gymnastics Rings",
-      desc: "",
-      img: "",
+      desc: "Perfect gear for a multitude of bodyweight exercises. All you need is something to hang it from.",
+      img: "https://i.imgur.com/nxlROod.jpg",
       link: "https://www.amazon.com/gp/product/B01LZYG9VB/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
     },
     {
-      title: "",
+      title: "Grooming Tool",
       name: "Wahl Rechargeable Lithium Ion All-in-One Beard Trimmer Men’s Grooming Kit",
-      desc: "",
-      img: "",
+      desc: "A multi-functional tool to shave/trim and give yourself a haircut while traveling.",
+      img: "https://i.imgur.com/HOlKqMG.jpg",
       link: "https://www.amazon.com/gp/product/B001GQ3GEY/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1",
     },
     {
-      title: "",
+      title: "Accomodation Service",
       name: "Airbnb",
-      desc: "",
-      img: "",
+      desc: "My go-to platform for booking week-long or month-long stays in a foreign country.",
+      img: "https://i.imgur.com/nTY6q5l.png",
+      link: "",
+      affiliate: "www.airbnb.com/c/timothyh793",
+    },
+    {
+      title: "Accomodation Service",
+      name: "Hostelworld",
+      desc: "When AirBnB is too expensive, I opt to look for a hostel instead or when I just need a couple quick nights while looking for a longer term accomodation.",
+      img: "https://i.imgur.com/HpohDED.png",
       link: ""
     },
     {
-      title: "",
+      title: "Transport Service",
       name: "Uber",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "I used this in other countries and had great luck. Lyft might be another option for you.",
+      img: "https://i.imgur.com/uNXFvey.png",
+      link: "https://www.uber.com/"
     },
   ],
   software_tools: [
-    {
-      title: "",
-      name: "",
-      desc: "",
-      img: "",
-      link: "",
-    },
   ],
   web_development: [
     {
-      title: "",
+      title: "Domain Registration",
       name: "Namecheap",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "Highly recommended domain management and purchase platform.",
+      img: "https://i.imgur.com/VHlW4oG.png",
+      link: "",
+      affiliate: "https://namecheap.pxf.io/c/1244000/386170/5618"
     },
     {
-      title: "",
-      name: "Google Drive",
-      desc: "",
-      img: "",
-      link: ""
+      title: "Online File Storage",
+      name: "Google Drive 100GB",
+      desc: "An awesome 100GB for $20/year to store all of your documents and files.",
+      img: "https://i.imgur.com/zmDqiAM.png",
+      link: "https://drive.google.com/settings/storage"
     },
     {
-      title: "",
+      title: "Cross Device Music Sync",
+      name: "Cloud Player",
+      desc: "Imagine uploading an mp3 to your google drive and it syncs to your phone!",
+      img: "https://i.imgur.com/8527Jh8.png",
+      link: "https://play.google.com/store/apps/details?id=com.doubleTwist.cloudPlayer"
+    },
+    {
+      title: "Password Management",
       name: "Last Pass",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "Store all your passwords safely with website, chrome, and mobile app.",
+      img: "https://i.imgur.com/HKIXxTV.png",
+      link: "https://www.lastpass.com/"
     },
     {
-      title: "",
+      title: "Free Code Learning",
       name: "Free Code Camp",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "A great place to learn to code with free challenges and friendly community",
+      img: "https://i.imgur.com/PuUow45.png",
+      link: "https://www.freecodecamp.org/"
     },
     {
-      title: "",
+      title: "Code Learning Platform",
       name: "Udemy",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "Great courses for cheap. Wait for the $10 sales!",
+      img: "https://i.imgur.com/ntULx0d.png",
+      link: "https://www.udemy.com/"
     },
     {
-      title: "",
+      title: "Paid Code Learning Platform",
       name: "Front End Masters",
-      desc: "",
-      img: "",
-      link: ""
-    },
-    {
-      title: "",
-      name: "",
-      desc: "",
-      img: "",
-      link: ""
+      desc: "A yearly subscription platform that teaches the latest and great for front-end web development",
+      img: "https://i.imgur.com/3Gk9xAS.jpg",
+      link: "https://frontendmasters.com/"
     },
   ],
 }
