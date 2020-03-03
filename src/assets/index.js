@@ -62,7 +62,6 @@ export const playlists = [
 ]
 
 export const gear = {
-
   laptop: [
     {
       title: "Laptop",
@@ -295,7 +294,7 @@ export const gear = {
 }
 
 export const resources = {
-  phone_tools: [
+  phone: [
     {
       title: "Phone, primary",
       name: "LG G6 Unlocked Phone",
@@ -325,9 +324,9 @@ export const resources = {
       link: "https://www.amazon.com/gp/product/B074GR8W2Q/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1",
     },
   ],
-  recording_tools: [
+  recording: [
   ],
-  travel_tools: [
+  travel: [
     {
       title: "Charles Schwab Card",
       name: "Charles Schwab Debit Card",
@@ -392,6 +391,8 @@ export const resources = {
       img: "https://i.imgur.com/HOlKqMG.jpg",
       link: "https://www.amazon.com/gp/product/B001GQ3GEY/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1",
     },
+  ],
+  services: [
     {
       title: "Accomodation Service",
       name: "Airbnb",
@@ -414,18 +415,6 @@ export const resources = {
       img: "https://i.imgur.com/uNXFvey.png",
       link: "https://www.uber.com/"
     },
-  ],
-  software_tools: [
-  ],
-  web_development: [
-    {
-      title: "Domain Registration",
-      name: "Namecheap",
-      desc: "Highly recommended domain management and purchase platform.",
-      img: "https://i.imgur.com/VHlW4oG.png",
-      link: "",
-      affiliate: "https://namecheap.pxf.io/c/1244000/386170/5618"
-    },
     {
       title: "Online File Storage",
       name: "Google Drive 100GB",
@@ -447,6 +436,16 @@ export const resources = {
       img: "https://i.imgur.com/HKIXxTV.png",
       link: "https://www.lastpass.com/"
     },
+    {
+      title: "Domain Registration",
+      name: "Namecheap",
+      desc: "Highly recommended domain management and purchase platform.",
+      img: "https://i.imgur.com/VHlW4oG.png",
+      link: "",
+      affiliate: "https://namecheap.pxf.io/c/1244000/386170/5618"
+    },
+  ],
+  web: [
     {
       title: "Free Code Learning",
       name: "Free Code Camp",

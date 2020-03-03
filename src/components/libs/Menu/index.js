@@ -16,7 +16,7 @@ const Social = () => (
     <Link href="/gear">
       <A1>⚙️ Gear</A1>
     </Link>
-    <Link href="/resources">
+    <Link href="/links">
       <A1>⚡️ Links</A1>
     </Link>
     <Link href="/contact">
