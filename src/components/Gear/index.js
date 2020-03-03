@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 // LOCAL
-import { resources } from '../../assets'
+import { gear } from '../../assets'
 
 class Gear extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class Gear extends React.Component {
       <main className="Gear">
         <h1>Laptop Computer</h1>
         <Div1>
-          {resources.laptop.map(item => (
+          {gear.laptop.map(item => (
             <Div2>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
@@ -27,7 +27,7 @@ class Gear extends React.Component {
         </Div1>
         <h1>Desktop Computer</h1>
         <Div3>
-          {resources.desktop.map(item => (
+          {gear.desktop.map(item => (
             <Div2>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
