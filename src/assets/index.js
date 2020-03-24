@@ -69,7 +69,7 @@ export const gear = {
       desc: "Highly recommended laptop for the budget developer to work in the Apple Operating System.",
       img: "https://i.imgur.com/d9jV2iH.png",
       link: "http://www.amazon.com",
-      weight: "4.46 lbs",
+      weight: "71.4 oz",
     },
     {
       title: "Case Cover",
@@ -85,7 +85,7 @@ export const gear = {
       desc: "Instead of using an ipad, this extra monitor is a boon for productivity.",
       img: "https://i.imgur.com/U95a6mA.png",
       link: "https://www.amazon.com/gp/product/B013XFJKGI/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1",
-      weight: "1.76 lbs",
+      weight: "28.2 oz",
     },
     {
       title: "Laptop Stand",
@@ -107,7 +107,7 @@ export const gear = {
       title: "Mouse, bluetooth",
       name: "Logitech M720 Triathalon Multi-Device Wireless Bluetooth Mouse",
       desc: "A sturdy bluetooth mouse that can connect to multiple devices.",
-      img: "https://i.imgur.com/nTKqYbn.png",
+      img: "https://i.imgur.com/bBR4DZZ.png",
       link: "https://www.amazon.com/gp/product/B01LF37K80/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1",
       weight: "4.6 oz",
     },
@@ -141,7 +141,7 @@ export const gear = {
       desc: "I back up my life on this thing and still have not run out of space yet.",
       img: "https://i.imgur.com/Rhmtyup.jpg",
       link: "https://www.amazon.com/gp/product/B01LQQH86A/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
-      weight: "",
+      weight: "8.6 oz",
     },
     {
       title: "External Power Bank",
@@ -173,7 +173,7 @@ export const gear = {
       desc: "My business travel backpack with plenty of compartments and convenient TSA laptop compartment and use as my tech bag. Dimensions are 19 x 16 x 8 inches.",
       img: "https://i.imgur.com/BsMHl3Z.png",
       link: "https://www.amazon.com/SwissGear-Weekender-Backpack-Bookbag-Computers/dp/B077S4WMM5/ref=sr_1_37?keywords=SwissGear+SCANSMART+Laptop+Backpack&qid=1583202018&sr=8-37",
-      weight: "1.5 lbs",
+      weight: "24 oz",
     },
     {
       title: "Backpack, secondary",
@@ -181,7 +181,7 @@ export const gear = {
       desc: "A 40L internal-frame backpack including with rainfly used as my luggage bag. Dimensions are 21.625 x 13.125 x 10.5 inches.",
       img: "https://i.imgur.com/gTUMOU1.png",
       link: "https://www.rei.com/product/880839/rei-co-op-trail-40-pack-mens",
-      weight: "2lb 14oz",
+      weight: "46 oz",
     },
   ],
   desktop: [
