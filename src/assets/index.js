@@ -290,6 +290,20 @@ export const gear = {
       img: "https://i.imgur.com/nOCuL6M.png",
       link: "https://www.amazon.com/gp/product/B07D7JTR5M/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1",
     },
+    {
+      title: "PC Fans",
+      name: "upHere 120mm Computer Case Fan Rainbow LED Silent 3 Pack Colorful Case Fan",
+      desc: "Dissapates heat from the PC and stylish colors for looks.",
+      img: "https://i.imgur.com/iX9YuPz.png",
+      link: "https://www.amazon.com/gp/product/B07T9ZWJ49/ref=ppx_yo_dt_b_asin_title_o03_s00",
+    },
+    {
+      title: "Standing Desk",
+      name: "Seville Classics AIRLIFT Gas-Spring Height Adjustable Standing Desk Converter with Keyboard Tray",
+      desc: "Convenient gas-spring powered adjustable desk to improve your ergonomics.",
+      img: "https://i.imgur.com/0HSaiHJ.png",
+      link: "https://www.amazon.com/Seville-Classics-WEB599-Gas-Spring-Workstation/dp/B07KZ94QP9/ref=sr_1_2",
+    },
   ],
 }
 
@@ -425,7 +439,7 @@ export const links = {
     {
       title: "Cross Device Music Sync",
       name: "Cloud Player",
-      desc: "Imagine uploading an mp3 to your google drive and it syncs to your phone!",
+      desc: "Imagine uploading an mp3 to your google drive and it syncs to your phone.",
       img: "https://i.imgur.com/8527Jh8.png",
       link: "https://play.google.com/store/apps/details?id=com.doubleTwist.cloudPlayer"
     },
@@ -449,7 +463,7 @@ export const links = {
     {
       title: "Free Code Learning",
       name: "Free Code Camp",
-      desc: "A great place to learn to code with free challenges and friendly community",
+      desc: "A great place to learn to code with free challenges and friendly community.",
       img: "https://i.imgur.com/PuUow45.png",
       link: "https://www.freecodecamp.org/"
     },
@@ -463,7 +477,7 @@ export const links = {
     {
       title: "Paid Code Learning Platform",
       name: "Front End Masters",
-      desc: "A yearly subscription platform that teaches the latest and great for front-end web development",
+      desc: "A yearly subscription platform that teaches the latest and great for front-end web development.",
       img: "https://i.imgur.com/Wa9hFlH.png",
       link: "https://frontendmasters.com/"
     },
