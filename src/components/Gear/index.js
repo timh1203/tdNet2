@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 // LOCAL
-import { gear } from '../../assets'
+import { rig, gear } from '../../assets'
 
 class Gear extends React.Component {
   render() {
@@ -10,8 +10,12 @@ class Gear extends React.Component {
       <main>
         <H1a>Laptop Computer</H1a>
         <Div1>
+          <Img2 src={rig.laptop_front.img} alt={rig.laptop_front.alt} />
+          <Img2 src={rig.laptop_side.img} alt={rig.laptop_side.alt} />
+        </Div1>
+        <Div2>
           {gear.laptop.map(item => (
-            <Div2 key={item.name}>
+            <Div3 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
@@ -23,16 +27,17 @@ class Gear extends React.Component {
                 {item.desc}<br />
               </P1>
               <P1><center>{item.weight}</center></P1>
-            </Div2>
+            </Div3>
           ))}
-        </Div1>
+        </Div2>
         <H1a>Desktop Computer</H1a>
+        <Div1>
+          <Img2 src={rig.desktop_front.img} alt={rig.desktop_front.alt} />
+          <Img2 src={rig.desktop_side.img} alt={rig.desktop_side.alt} />
+        </Div1>
         <Div4>
-          <Img2 src="https://i.imgur.com/KywpOkb.jpg" alt="Desktop setup" />
-        </Div4>
-        <Div3>
           {gear.desktop.map(item => (
-            <Div2 key={item.name}>
+            <Div3 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
@@ -43,9 +48,9 @@ class Gear extends React.Component {
                 <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
                 {item.desc}
               </P1>
-            </Div2>
+            </Div3>
           ))}
-        </Div3>
+        </Div4>
       </main>
     )
   }
@@ -56,11 +61,20 @@ const H1a = styled.h1`
 `
 const Div1 = styled.div`
   display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+  & > * {
+    margin: 20px;
+  }
+`
+const Div2 = styled.div`
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   font-family: 'Raleway', sans-serif;
 `
-const Div2 = styled.div`
+const Div3 = styled.div`
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -68,14 +82,10 @@ const Div2 = styled.div`
     justify-content: flex-start;
     margin: 1rem 0;
 `
-const Div3 = styled.div`
+const Div4 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-`
-const Div4 = styled.div`
-  width: 50%;
-  margin: 0 auto;
 `
 const Img1 = styled.img`
   width: 90%;
@@ -85,8 +95,6 @@ const Img1 = styled.img`
 const Img2 = styled.img`
   width: 100%;
   border-radius: 3px;
-  /* text-align: center; */
-  /* margin: 0 auto; */
 `
 const P1 = styled.p`
   width: 90%;

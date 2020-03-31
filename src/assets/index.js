@@ -61,6 +61,25 @@ export const playlists = [
   },
 ]
 
+export const rig = {
+  laptop_front: {
+    img: "https://i.imgur.com/v7n49jS.jpg",
+    alt: "Front view of laptop rig",
+  },
+  laptop_side: {
+    img: "https://i.imgur.com/jBDUOJn.jpg",
+    alt: "Side view of laptop rig",
+  },
+  desktop_front: {
+    img: "https://i.imgur.com/D8XQJJa.jpg",
+    alt: "Front view of desktop rig",
+  },
+  desktop_side: {
+    img: "https://i.imgur.com/dGdyVQa.jpg",
+    alt: "Side view of desktop rig",
+  },
+}
+
 export const gear = {
   laptop: [
     {
