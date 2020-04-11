@@ -6,19 +6,20 @@ import { links } from '../../assets'
 
 class Links extends React.Component {
   makeEntry = (item) => {
+    const { name, title, img, affiliate, link, desc, weight } = item;
     return (
-      <Div2 key={item.name}>
+      <Div2 key={name}>
         <P1>
-          <center><strong>{item.title}</strong></center><br />
+          <center><strong>{title}</strong></center><br />
         </P1>
-        <A1 href={item.link} alt={item.name}>
-          <center><Img1 src={item.img} /></center>
+        <A1 href={affiliate || link} alt={name}>
+          <center><Img1 src={img} /></center>
         </A1>
         <P1>
-          <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
-          {item.desc}<br />
+          <center><A1 href={affiliate || link} alt={name}>{name}</A1></center><br />
+          {desc}<br />
         </P1>
-        <P1><center>{item.weight}</center></P1>
+        <P1><center>{weight}</center></P1>
       </Div2>
     )
   }
@@ -73,6 +74,7 @@ const Img1 = styled.img`
 `
 const P1 = styled.p`
   width: 90%;
+  line-height: 1.4;
 `
 const A1 = styled.a`
   color: black;

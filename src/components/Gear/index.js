@@ -98,6 +98,7 @@ const Img2 = styled.img`
 `
 const P1 = styled.p`
   width: 90%;
+  line-height: 1.4;
 `
 const A1 = styled.a`
   color: black;
