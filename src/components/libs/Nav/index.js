@@ -6,7 +6,7 @@ import Social from '../Social'
 import Menu from '../Menu'
 
 const Nav = () => (
-  <Main1 className="Nav">
+  <Main1 id="nav">
     <Section1 className="nav-left">
       <img src="/logo.png" alt='travelDev Logo' />
     </Section1>

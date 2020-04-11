@@ -1,5 +1,6 @@
 // PACKAGES
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { FiArrowUpCircle } from "react-icons/fi";
 
 // LOCAL
 import { rig, gear } from '../../assets'
@@ -12,49 +13,54 @@ class Gear extends React.Component {
         <Hr1 />
         <QuickNav />
         <Hr1 />
-        <H1a id="gear-laptop">Laptop Computer</H1a>
         <Div1>
-          <Img2 src={rig.laptop_front.img} alt={rig.laptop_front.alt} />
-          <Img2 src={rig.laptop_side.img} alt={rig.laptop_side.alt} />
+          <H1a id="gear-laptop">Laptop Computer</H1a>
         </Div1>
         <Div2>
+          <Img2 src={rig.laptop_front.img} alt={rig.laptop_front.alt} />
+          <Img2 src={rig.laptop_side.img} alt={rig.laptop_side.alt} />
+        </Div2>
+        <Div3>
           {gear.laptop.map(item => (
-            <Div3 key={item.name}>
+            <Div4 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
-              <A1 href={item.link} alt={item.name}>
+              <A2 href={item.link} alt={item.name}>
                 <Img1 src={item.img} />
-              </A1>
+              </A2>
               <P1>
-                <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
+                <center><A2 href={item.link} alt={item.name}>{item.name}</A2></center><br />
                 {item.desc}<br />
               </P1>
               <P1><center>{item.weight}</center></P1>
-            </Div3>
+            </Div4>
           ))}
-        </Div2>
-        <H1a id="gear-desktop">Desktop Computer</H1a>
+        </Div3>
         <Div1>
+          <H1a id="gear-desktop">Desktop Computer</H1a>
+          <A1 href="#nav"><FiArrowUpCircle size={50} /></A1>
+        </Div1>
+        <Div2>
           <Img2 src={rig.desktop_front.img} alt={rig.desktop_front.alt} />
           <Img2 src={rig.desktop_side.img} alt={rig.desktop_side.alt} />
-        </Div1>
-        <Div4>
+        </Div2>
+        <Div5>
           {gear.desktop.map(item => (
-            <Div3 key={item.name}>
+            <Div4 key={item.name}>
               <P1>
                 <center><strong>{item.title}</strong></center><br />
               </P1>
-              <A1 href={item.link} alt={item.name}>
+              <A2 href={item.link} alt={item.name}>
                 <Img1 src={item.img} />
-              </A1>
+              </A2>
               <P1>
-                <center><A1 href={item.link} alt={item.name}>{item.name}</A1></center><br />
+                <center><A2 href={item.link} alt={item.name}>{item.name}</A2></center><br />
                 {item.desc}
               </P1>
-            </Div3>
+            </Div4>
           ))}
-        </Div4>
+        </Div5>
       </main>
     )
   }
@@ -68,6 +74,11 @@ const Hr1 = styled.hr`
 `
 const Div1 = styled.div`
   display: flex;
+  justify-content: space-between;
+  width: 98%;
+`
+const Div2 = styled.div`
+  display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
 
@@ -75,13 +86,13 @@ const Div1 = styled.div`
     margin: 20px;
   }
 `
-const Div2 = styled.div`
+const Div3 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   font-family: 'Raleway', sans-serif;
 `
-const Div3 = styled.div`
+const Div4 = styled.div`
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -89,7 +100,7 @@ const Div3 = styled.div`
     justify-content: flex-start;
     margin: 1rem 0;
 `
-const Div4 = styled.div`
+const Div5 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -108,6 +119,18 @@ const P1 = styled.p`
   line-height: 1.4;
 `
 const A1 = styled.a`
+  text-decoration: none;
+  margin-top: 5px;
+  &:link,
+  &:visited {
+    color: darkgray;
+  }
+  &:hover {
+    cursor: pointer;
+    color: gray;
+  }
+`
+const A2 = styled.a`
   color: black;
   &hover{
     cursor: pointer;

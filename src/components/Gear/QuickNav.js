@@ -30,10 +30,13 @@ const A1 = styled.a`
   }
   &:hover {
     cursor: pointer;
-    text-decoration: underline;
-    text-shadow: 0 0 20px #5454FF;
+    color: gray;
   }
 `
 const P1 = styled.p`
   font-size: 1.4rem;
+  border-bottom: 3px solid white;
+  &:hover {
+    border-bottom: 3px solid gray;
+  }
 `
