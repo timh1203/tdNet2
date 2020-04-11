@@ -6,9 +6,9 @@ import { playlists } from '../../assets'
 
 const createPlaylistItem = (item, index) => (
   <article key={index}>
-    <a href={item.href} rel="noopener noreferrer" target="_blank">
+    <A1 href={item.href} rel="noopener noreferrer" target="_blank">
       <Img1 src={item.src} alt={item.alt} />
-    </a>
+    </A1>
   </article>
 )
 
@@ -37,6 +37,12 @@ const Div1 = styled.div`
 const Img1 = styled.img`
   max-height: 200px;
   margin: 1rem;
+  &:hover {
+    transition: 2s ease-out;
+    transform: scale(1.1);
+  }
+`
+const A1 = styled.a`
 `
 
 export default Playlists;
