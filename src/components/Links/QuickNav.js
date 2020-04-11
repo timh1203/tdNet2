@@ -4,18 +4,18 @@ import styled from 'styled-components';
 export default function QuickNav() {
   return (
     <Div1>
-      <a href="#links-travel">
+      <A1 href="#links-travel">
         <P1>Travel</P1>
-      </a>
-      <a href="#links-phone">
+      </A1>
+      <A1 href="#links-phone">
         <P1>Phone</P1>
-      </a>
-      <a href="#links-services">
+      </A1>
+      <A1 href="#links-services">
         <P1>Services</P1>
-      </a>
-      <a href="#links-web">
+      </A1>
+      <A1 href="#links-web">
         <P1>Web</P1>
-      </a>
+      </A1>
     </Div1>
   )
 }
@@ -27,6 +27,18 @@ const Div1 = styled.div`
   justify-content: space-around;
   font-family: 'Raleway', sans-serif;
 `
+const A1 = styled.a`
+  text-decoration: none;
+  margin-bottom: 5px;
+  &:visited {
+    color: gray;
+  }
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 0 0 20px #5454FF;
+  }
+`
 const P1 = styled.p`
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 `

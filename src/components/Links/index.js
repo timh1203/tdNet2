@@ -1,5 +1,6 @@
 // PACKAGES
 import styled from 'styled-components';
+
 // LOCAL
 import { links } from '../../assets';
 import QuickNav from './QuickNav';
@@ -27,6 +28,7 @@ class Links extends React.Component {
   render() {
     return (
       <main>
+        <Hr1 />
         <QuickNav />
         <Hr1 />
         <H1a id="links-travel">Travel Tools</H1a>
