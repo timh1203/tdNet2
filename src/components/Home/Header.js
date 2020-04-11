@@ -5,7 +5,7 @@ const Header = () => (
   <Section1>
     <H1A>travelDev</H1A>
     <Iframe1 width="640" height="385" src="https://www.youtube.com/embed/EBjhGtDrEHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe1>
-    <P1>I love to ️✈️, 💻, and 📹.</P1>
+    <P1>I love to ️travel, code, and make videos.</P1>
   </Section1>
 )
 

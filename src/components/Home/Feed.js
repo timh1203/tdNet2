@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Feed = (props) => (
   <Section1>
-    <h1>📹 Latest Videos</h1>
+    <h1>Latest Videos</h1>
     <Div1>
       {
         props.ytResults.map((video, i) => (

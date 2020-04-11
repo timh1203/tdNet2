@@ -5,22 +5,22 @@ import styled from 'styled-components'
 const Social = () => (
   <>
     <Link href="/">
-      <A1>🏠 Home</A1>
+      <A1>Home</A1>
     </Link>
     <Link href="/about">
-      <A1>👤 About</A1>
+      <A1>About</A1>
     </Link>
     <Link href="/playlists">
-      <A1>⏯ Playlists</A1>
+      <A1>Playlists</A1>
     </Link>
     <Link href="/gear">
-      <A1>⚙️ Gear</A1>
+      <A1>Gear</A1>
     </Link>
     <Link href="/links">
-      <A1>⚡️ Links</A1>
+      <A1>Links</A1>
     </Link>
     <Link href="/contact">
-      <A1>✉️ Contact</A1>
+      <A1>Contact</A1>
     </Link>
   </>
 )

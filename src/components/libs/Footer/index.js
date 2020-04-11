@@ -8,7 +8,7 @@ import Menu from '../Menu'
 const About = () => {
   return (
     <Div1>
-      <P1>👤 About</P1>
+      <P1>About</P1>
       <P2>My personal website to share my journey in travel and web development. I love traveling, web development, and sharing outdoor adventures. This site is meant to inspire and help me connect with like minded individual and serve as an online presence for my personal hobbies.</P2>
       <Button1>Read More</Button1>
     </Div1>
@@ -30,13 +30,13 @@ const Footer = () => (
       <About />
     </Section1>
     <Section2>
-      <P1>🧭 Navigation</P1>
+      <P1>Navigation</P1>
       <Span1>
         <Menu />
       </Span1>
     </Section2>
     <Section3>
-      <P1>🔗 Socials</P1>
+      <P1>Socials</P1>
       <Div2>
         <Social />
       </Div2>

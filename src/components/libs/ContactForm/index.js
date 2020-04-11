@@ -15,7 +15,7 @@ const ContactForm = () => {
   return (
     <Section1>
       <Div1>
-        <h1>📫 Contact</h1>
+        <h1>Contact</h1>
       </Div1>
       <Div2>
         <Form1 action="https://formspree.io/timh1203@gmail.com" method="POST">
