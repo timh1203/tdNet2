@@ -3,12 +3,16 @@ import styled from 'styled-components'
 
 // LOCAL
 import { rig, gear } from '../../assets'
+import QuickNav from './QuickNav';
 
 class Gear extends React.Component {
   render() {
     return (
       <main>
-        <H1a>Laptop Computer</H1a>
+        <Hr1 />
+        <QuickNav />
+        <Hr1 />
+        <H1a id="gear-laptop">Laptop Computer</H1a>
         <Div1>
           <Img2 src={rig.laptop_front.img} alt={rig.laptop_front.alt} />
           <Img2 src={rig.laptop_side.img} alt={rig.laptop_side.alt} />
@@ -30,7 +34,7 @@ class Gear extends React.Component {
             </Div3>
           ))}
         </Div2>
-        <H1a>Desktop Computer</H1a>
+        <H1a id="gear-desktop">Desktop Computer</H1a>
         <Div1>
           <Img2 src={rig.desktop_front.img} alt={rig.desktop_front.alt} />
           <Img2 src={rig.desktop_side.img} alt={rig.desktop_side.alt} />
@@ -58,6 +62,9 @@ class Gear extends React.Component {
 
 const H1a = styled.h1`
   margin-left: 2rem;
+`
+const Hr1 = styled.hr`
+  width: 90%;
 `
 const Div1 = styled.div`
   display: flex;
