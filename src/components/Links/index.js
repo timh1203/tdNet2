@@ -1,8 +1,8 @@
 // PACKAGES
-import styled from 'styled-components'
-
+import styled from 'styled-components';
 // LOCAL
-import { links } from '../../assets'
+import { links } from '../../assets';
+import QuickNav from './QuickNav';
 
 class Links extends React.Component {
   makeEntry = (item) => {
@@ -27,19 +27,21 @@ class Links extends React.Component {
   render() {
     return (
       <main>
-        <H1a>Travel Tools</H1a>
+        <QuickNav />
+        <Hr1 />
+        <H1a id="links-travel">Travel Tools</H1a>
         <Div1>
           {links.travel.map(item => this.makeEntry(item))}
         </Div1>
-        <H1a>Phone Tools</H1a>
+        <H1a id="links-phone">Phone Tools</H1a>
         <Div1>
           {links.phone.map(item => this.makeEntry(item))}
         </Div1>
-        <H1a>Services</H1a>
+        <H1a id="links-services">Services</H1a>
         <Div1>
           {links.services.map(item => this.makeEntry(item))}
         </Div1>
-        <H1a>Web Tools</H1a>
+        <H1a id="links-web">Web Tools</H1a>
         <Div1>
           {links.web.map(item => this.makeEntry(item))}
         </Div1>
@@ -50,6 +52,9 @@ class Links extends React.Component {
 
 const H1a = styled.h1`
   margin-left: 2rem;
+`
+const Hr1 = styled.hr`
+  width: 90%;
 `
 const Div1 = styled.div`
   display: flex;
