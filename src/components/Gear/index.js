@@ -116,7 +116,7 @@ const Img2 = styled.img`
 `
 const P1 = styled.p`
   width: 90%;
-  line-height: 1.4;
+  line-height: 1.3;
 `
 const A1 = styled.a`
   text-decoration: none;

@@ -59,6 +59,7 @@ const Section1 = styled.section`
 const Div1 = styled.div`
   width: 80%;
   margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
 `
 const P1 = styled.p`
   font-size: 1.5rem;
@@ -67,6 +68,7 @@ const P1 = styled.p`
 `
 const P2 = styled.p`
   font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
 `
 const Button1 = styled.button`
   border: 2px solid black;

@@ -28,6 +28,7 @@ const Social = () => (
 const A1 = styled.a`
   text-decoration: none;
   margin-bottom: 5px;
+  font-family: 'Raleway', sans-serif;
   &:visited {
     color: #5454FF;
   }
