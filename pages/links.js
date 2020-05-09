@@ -1,5 +1,5 @@
 // LOCAL
-import Wrapper from '../src/components/libs/Wrapper'
+import Wrapper from '../src/shared/Wrapper'
 import Links from '../src/components/Links'
 
 class LinksPage extends React.Component {

@@ -1,19 +1,19 @@
 // PACKAGES
 import { FaTwitterSquare, FaYoutubeSquare, FaInstagram } from 'react-icons/fa'
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 // LOCAL
-import { links } from '../../../../public'
+import { socials } from '../../../public/static';
 
 const Social = () => (
   <>
-    <a href={links.youtube.url} alt={links.youtube.alt} target="_blank">
+    <a href={socials.youtube.url} alt={socials.youtube.alt} target="_blank">
       <FaYoutubeSquare1 size={50} />
     </a>
-    <a href={links.twitter.url} alt={links.twitter.alt} target="_blank">
+    <a href={socials.twitter.url} alt={socials.twitter.alt} target="_blank">
       <FaTwitter1 size={50} />
     </a>
-    <a href={links.instagram.url} alt={links.instagram.alt} target="_blank">
+    <a href={socials.instagram.url} alt={socials.instagram.alt} target="_blank">
       <FaInstagram1 size={43} />
     </a>
   </>

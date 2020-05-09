@@ -1,5 +1,5 @@
 // LOCAL
-import Wrapper from '../src/components/libs/Wrapper'
+import Wrapper from '../src/shared/Wrapper'
 import Playlists from '../src/components/Playlists'
 
 class PlaylistsPage extends React.Component {

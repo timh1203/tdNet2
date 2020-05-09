@@ -13,7 +13,7 @@ const Discord = () => (
         DevSky Crew Discord Invite:
         </p>
       <A1 href="https://discord.gg/9WjKnh" target="_blank">
-        <Img1 src="/discord.png" alt="discord logo" />
+        <Img1 src="/static/images/discord.png" alt="discord logo" />
       </A1>
       <A1 href="https://discord.gg/9WjKnh" target="_blank">
         <p>https://discord.gg/9WjKnh</p>

@@ -1,5 +1,5 @@
 // LOCAL
-import ContactForm from '../libs/ContactForm'
+import ContactForm from '../../shared/ContactForm'
 import Discord from './Discord.js'
 
 class Contact extends React.Component {

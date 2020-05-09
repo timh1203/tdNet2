@@ -1,5 +1,5 @@
 // LOCAL
-import Wrapper from '../src/components/libs/Wrapper'
+import Wrapper from '../src/shared/Wrapper'
 import Contact from '../src/components/Contact'
 
 class ContactPage extends React.Component {

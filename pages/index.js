@@ -2,7 +2,7 @@
 import fetch from 'isomorphic-unfetch'
 
 // LOCAL
-import Wrapper from '../src/components/libs/Wrapper'
+import Wrapper from '../src/shared/Wrapper'
 import Home from '../src/components/Home'
 
 class HomePage extends React.Component {

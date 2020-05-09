@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FiArrowUpCircle } from "react-icons/fi";
 
 // LOCAL
-import { links } from '../../assets';
+import { links } from '../../../public/static';
 import QuickNav from './QuickNav';
 
 class Links extends React.Component {

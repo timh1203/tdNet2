@@ -8,7 +8,7 @@ import Menu from '../Menu'
 const Nav = () => (
   <Main1 id="nav">
     <Section1 className="nav-left">
-      <img src="/logo.png" alt='travelDev Logo' />
+      <img src="/static/images/logo.png" alt='travelDev Logo' />
     </Section1>
     <Section2 className="nav-middle">
       <Social />

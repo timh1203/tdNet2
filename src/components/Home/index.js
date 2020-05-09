@@ -4,7 +4,7 @@ import Header from './Header.js'
 import Quote from './Quote.js'
 import Feed from './Feed.js'
 import Discord from './Discord.js'
-import ContactForm from '../libs/ContactForm'
+import ContactForm from '../../shared/ContactForm'
 
 class Home extends React.Component {
   render() {
