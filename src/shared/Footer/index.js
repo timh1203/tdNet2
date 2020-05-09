@@ -19,7 +19,7 @@ const Credits = () => {
   return (
     <Div1>
       <P1>Made with ☀️, 🍵, and 🔥.</P1>
-      <P1>Updated: February {new Date().getFullYear()}</P1>
+      <P1>Updated: May {new Date().getFullYear()}</P1>
     </Div1>
   )
 }
