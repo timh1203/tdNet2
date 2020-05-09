@@ -47,7 +47,6 @@ const Img1 = styled.img`
   border-radius: 5px;
 `
 const Div2 = styled.div`
-  font-family: 'Raleway', sans-serif;
   line-height: 1.3;
 `
 const P1 = styled.p`

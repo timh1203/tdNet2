@@ -90,7 +90,6 @@ const Div3 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-family: 'Raleway', sans-serif;
 `
 const Div4 = styled.div`
     width: 30%;

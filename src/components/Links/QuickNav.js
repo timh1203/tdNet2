@@ -25,7 +25,6 @@ const Div1 = styled.div`
   width: 60%;
   margin: 0 auto;
   justify-content: space-around;
-  font-family: 'Raleway', sans-serif;
 `
 const A1 = styled.a`
   text-decoration: none;
@@ -40,6 +39,7 @@ const A1 = styled.a`
   }
 `
 const P1 = styled.p`
+  font-family: "Jost";
   font-size: 1.4rem;
   border-bottom: 3px solid white;
   &:hover {

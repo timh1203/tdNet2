@@ -42,7 +42,6 @@ const Iframe1 = styled.iframe`
   border: none;
 `
 const P1 = styled.p`
-  font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
 `
 const Img1 = styled.img`

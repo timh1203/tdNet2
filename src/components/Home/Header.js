@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Header = () => (
   <Section1>
-    <H1A>travelDev</H1A>
     <Iframe1 width="640" height="385" src="https://www.youtube.com/embed/EBjhGtDrEHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe1>
+    <H1A>travelDev</H1A>
     <P1>I love to ️travel, code, and make videos.</P1>
   </Section1>
 )
@@ -16,14 +16,14 @@ const Section1 = styled.section`
   background: linear-gradient(0deg, rgba(128,128,233,1) 0%, rgba(73,127,255,1) 100%);
 `
 const H1A = styled.h1`
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Montserrat";
   font-weight: 800;
   color: #292929;
   text-shadow: 1px 4px 2px gray;
   margin: 0;
   font-size: 4rem;
   text-decoration: underline;
-  transform: rotate(-10deg);
+  transform: rotate(-5deg);
 `
 const Iframe1 = styled.iframe`
   margin: 2rem auto;

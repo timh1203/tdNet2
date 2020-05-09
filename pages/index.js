@@ -1,5 +1,4 @@
 // PACKAGES
-import styled from 'styled-components';
 import fetch from 'isomorphic-unfetch'
 
 // LOCAL
@@ -19,16 +18,11 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <Wrapper1>
+      <Wrapper>
         <Home ytResults={this.props.ytResults} />
-      </Wrapper1>
+      </Wrapper>
     );
   }
 }
-
-const Wrapper1 = styled(Wrapper)`
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-`;
 
 export default HomePage;

@@ -17,7 +17,6 @@ const Section1 = styled.section`
   padding: 2rem 0;
   height: 400px;
   color: white;
-  font-family: "Abril Fatface", cursive;
   background-image: url("/skyPlane.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -30,6 +29,7 @@ const Section1 = styled.section`
   color: black;
 `
 const Span2 = styled.span`
+  font-family: cursive;
   border-bottom: 5px solid #5454FF;
 `
 const Span1 = styled.span`

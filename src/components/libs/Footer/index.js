@@ -19,7 +19,7 @@ const Credits = () => {
   return (
     <Div1>
       <P1>Made with ☀️, 🍵, and 🔥.</P1>
-      <p>Updated: February {new Date().getFullYear()}</p>
+      <P1>Updated: February {new Date().getFullYear()}</P1>
     </Div1>
   )
 }
@@ -52,23 +52,22 @@ const Main1 = styled.main`
   background: #333333;
 `
 const Section1 = styled.section`
-  width: 50%;
-  text-align: center;
-  color: white;
+width: 50%;
+text-align: center;
+color: white;
 `
 const Div1 = styled.div`
   width: 80%;
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
 `
 const P1 = styled.p`
-  font-size: 1.5rem;
+font-family: 'Jost';
+  font-size: 1.2rem;
   font-weight: 800;
   color: white;
 `
 const P2 = styled.p`
   font-size: 1.2rem;
-  font-family: 'Raleway', sans-serif;
 `
 const Button1 = styled.button`
   border: 2px solid black;
