@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 // LOCAL
-import { playlists } from '../../assets'
+import { playlists } from '../../../public/static'
 
 const createPlaylistItem = (item, index) => (
   <article key={index}>

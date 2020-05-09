@@ -24,7 +24,7 @@ const Discord = () => (
 
 const Section1 = styled.section`
   padding: 2rem 0;
-  background-image: url("/skyDrawing.png");
+  background-image: url("/static/images/skyDrawing.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

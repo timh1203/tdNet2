@@ -13,7 +13,7 @@ class Home extends React.Component {
         <Announcements />
         <Header />
         <Quote />
-        <Feed ytResults={this.props.ytResults} />
+        {this.props.ytResults ? <Feed ytResults={this.props.ytResults} /> : ""}
         <Discord />
         <ContactForm />
       </main>

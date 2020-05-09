@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Discord = () => (
   <Section1>
     <A1 href="https://discord.gg/9WjKnh" target="_blank">
-      <Img1 src="/discord.png" alt="discord logo" />
+      <Img1 src="/static/images/discord.png" alt="discord logo" />
     </A1>
     <P1>Want to connect with me and other aspiring travel developers?</P1>
     <P2>Hop in our discord: DevSky Crew!</P2>
@@ -15,7 +15,7 @@ const Discord = () => (
 const Section1 = styled.section`
   padding: 2rem 0;
   height: 400px;
-  background-image: url("/skyDrawing.png");
+  background-image: url("/static/images/skyDrawing.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

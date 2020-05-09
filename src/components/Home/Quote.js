@@ -17,7 +17,7 @@ const Section1 = styled.section`
   padding: 2rem 0;
   height: 400px;
   color: white;
-  background-image: url("/skyPlane.jpg");
+  background-image: url("/static/images/skyPlane.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

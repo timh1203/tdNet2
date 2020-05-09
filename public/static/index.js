@@ -1,3 +1,18 @@
+export const socials = {
+  youtube: {
+    url: 'https://www.youtube.com/c/travelDevVideos',
+    alt: 'travelDev Youtube',
+  },
+  twitter: {
+    url: 'https://twitter.com/traveldev',
+    alt: 'travelDev Twitter',
+  },
+  instagram: {
+    url: 'https://www.instagram.com/travel_Dev',
+    alt: 'travelDev Instagram',
+  }
+}
+
 export const playlists = [
   {
     href: "https://www.youtube.com/playlist?list=PLPTS2VjPOpjUVhr5FSvSM3CCNVBIx1t4g",
@@ -356,8 +371,6 @@ export const links = {
       img: "https://i.imgur.com/ObKgwxq.png",
       link: "https://www.amazon.com/gp/product/B01MYAJT88",
     },
-  ],
-  recording: [
   ],
   travel: [
     {
