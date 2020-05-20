@@ -78,6 +78,7 @@ const Div1 = styled.div`
   width: 98%;
 `
 const Div2 = styled.div`
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
