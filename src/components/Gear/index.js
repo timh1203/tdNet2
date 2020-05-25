@@ -111,7 +111,7 @@ const Img1 = styled.img`
   display: inline-block;
 `
 const Img2 = styled.img`
-  width: 100%;
+  width: 50%;
   border-radius: 3px;
 `
 const P1 = styled.p`
